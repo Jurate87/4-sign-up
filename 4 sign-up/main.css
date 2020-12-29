@@ -11,16 +11,18 @@ body {
 }
    .left-column {
        display: inline-block;
-       width: 40%;
+       width: calc(40% - 80px);
        float: left;
+       padding: 40px;
        margin-top: 20px;
        background-color: #4242a4;
 
    }
     .right-column { 
        display: inline-block;
-       width: 60%;
+       width: calc(60% - 120px);
        float: left;
+       padding: 60px;
        background-color: #fff;
 
    }
