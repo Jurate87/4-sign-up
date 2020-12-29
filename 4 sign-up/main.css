@@ -11,7 +11,7 @@ body {
 }
    .left-column {
        display: inline-block;
-       width: calc(40% - 80px);
+       width: 40%;
        float: left;
        padding: 40px;
        margin-top: 20px;
@@ -20,7 +20,7 @@ body {
    }
     .right-column { 
        display: inline-block;
-       width: calc(60% - 120px);
+       width: 60%;
        float: left;
        padding: 60px;
        background-color: #fff;
