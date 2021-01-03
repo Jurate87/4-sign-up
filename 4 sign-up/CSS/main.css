@@ -1,32 +1,59 @@
 body {
     background-color: #68BED3;
+   
+
 
 }
+
+
+
+
+
 .container {
     display: inline-block;
     width: 800px;
     margin-top: 100px;
     margin-left: calc((100% - 800px) / 2);
+    position: relative;
     
+   
+     
 }
    .left-column {
        display: inline-block;
        width: 40%;
+       
        float: left;
+       
        padding: 40px;
-       margin-top: 20px;
+      
        background-color: #4242a4;
        color: #fff;
+       position: absolute;
+       top: 30px;
+       bottom: 30px;
+      
+      
+       
 
    }
        h1 {
         display: inline-block;
         width: 100%;
+        
+        
 
        }
        footer {
         display: inline-block;
-        width: 100%;
+        
+        position: absolute;
+        left: 40px;
+        right: 40px;
+        bottom: 20px;
+        
+
+
 
        }
            footer > a {
@@ -44,10 +71,13 @@ body {
     .right-column { 
        display: inline-block;
        width: 60%;
-       float: left;
+       float: right;
        padding: 60px;
        background-color: #fff;
        position: relative;
+       
+       
+       
 
    }
         .close {
