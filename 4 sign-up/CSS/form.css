@@ -35,9 +35,12 @@ form {
         
         .form-row > span {
             display: inline-block;
+            padding: 10px;
+
 
         }
         .form-row > a {
             display: inline-block;
+            padding: 10px;
 
         }
